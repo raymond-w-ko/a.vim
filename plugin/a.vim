@@ -71,8 +71,8 @@ endfunction
 
 " Add all the default extensions
 " Mappings for C, C++, and Objective-C
-call <SID>AddAlternateExtensionMapping('h',"m,M,c,cpp,cxx,cc,CC")
-call <SID>AddAlternateExtensionMapping('H',"M,C,CPP,CXX,CC")
+call <SID>AddAlternateExtensionMapping('h',"c,cpp,cxx,cc,CC,m,M")
+call <SID>AddAlternateExtensionMapping('H',"C,CPP,CXX,CC,M")
 call <SID>AddAlternateExtensionMapping('hpp',"cpp,c")
 call <SID>AddAlternateExtensionMapping('HPP',"CPP,C")
 call <SID>AddAlternateExtensionMapping('c',"h")
